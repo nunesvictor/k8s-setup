@@ -21,7 +21,7 @@ update-alternatives --set ebtables /usr/sbin/ebtables-legacy
 apt-get install -y apt-transport-https curl
 
 # install docker
-curl -fsSL https://test.docker.com | bash
+curl -fsSL https://get.docker.com | bash
 
 # install kubeadm, kubelet and kubectl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -

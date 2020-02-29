@@ -1,7 +1,7 @@
 #!/bin/bash
 # 
 # Install docker and kubernetes tools
-# run as root with curl -fsSL k8s-setup.sh | bash
+# run as root with curl -fsSL https://raw.githubusercontent.com/nunesvictor/k8s-setup/master/k8s-setup.sh | bash
 
 # disable swap
 swapoff -a
